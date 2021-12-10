@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guide for API</title>
+</head>
+<body>
+    <h1>COMANDS</h1>
+    <div>
+        <p>GET</p>
+        <ul>
+            <li>url = '/' <span>Guide</span></li> 
+            <li>url = '/data' <span>Get All Data</span></li>
+            <li>url = '/data/<string:name>' <span>Get Data Filter by name</span></li>
+            <li>url = '/data/<int:id>' <span>Get Data Filter by id</span></li>
+        </ul>
+        <p>POST</p>
+        <ul>
+            <li>url = '/send' <span>Send New Data</span></li>
+        </ul>
+        <p>PUT</p>
+        <ul>
+            <li>url = '/edit/<int:id>' <span>Edit Existing Data</span></li>
+        </ul>
+        <p>DELETE</p>
+        <ul> 
+            <li>url = '/delete/<int:id>' <span>Delete Existing Data</span></li>
+        </ul>
+    </div>
+</body>
+</html>
